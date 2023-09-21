@@ -33,7 +33,6 @@ export const App = () => {
         <TitleContacts>Contacts</TitleContacts>
         <Filter />
         {isLoading && !error && <b>Request in progress...</b>}
-
         <ContactList />
         <GlobalStyle />
       </Container>
